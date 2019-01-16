@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from api.views import query_mini_program_order
+from api.views import query_mini_program_order, unified_mini_program_order
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('query/<out_trade_no>', query_mini_program_order),
+    path('unified/<out_trade_no>', unified_mini_program_order),
 ]

@@ -2,7 +2,7 @@ certifi==2018.8.24
 chardet==3.0.4
 Django==2.1.5
 idna==2.7
-minipay==1.2
+minipay==1.3
 pycryptodome==3.6.6
 pytz==2018.9
 requests==2.20.0
